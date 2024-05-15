@@ -13,6 +13,7 @@ pnpm install
 # back to the latest version
 git checkout main
 pnpm run dev
-# automatically install the dependencies
+# if node_modules and pnpm-lock.yaml are different, 
+# automatically install the dependencies which is defined in pnpm-lock.yaml
 # and start the development server
 ```
