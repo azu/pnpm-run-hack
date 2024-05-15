@@ -1,0 +1,21 @@
+{
+  "name": "pnpm-run-hack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "http-server .",
+    "test": "node --test test.js"
+  },
+  "keywords": [],
+  "author": "azu",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "http-server": "14.0.0"
+  },
+  "packageManager": "pnpm@9.1.0"
+}
